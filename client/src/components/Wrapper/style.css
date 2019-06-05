@@ -10,3 +10,14 @@
     overflow: auto;
     border-radius: 2px;
 }
+
+.wrapper-title{
+    padding: 1% 0% 1% 0%;
+    margin-bottom: 3%;
+    text-align: center;
+    color: navy;
+    text-shadow: 2px 2px rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 30px;
+    border: 2px solid navy;
+}

@@ -12,7 +12,7 @@ class Portfolio extends Component {
     render() {
         return (
             <div>
-                <Wrapper>
+                <Wrapper title="Projects">
                     {this.state.projects.map(project => (
                         <Card
                         name={project.name}

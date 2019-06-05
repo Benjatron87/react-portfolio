@@ -5,7 +5,7 @@ class Home extends Component {
   render() {
     return (
       <div>
-        <Wrapper>
+        <Wrapper title="About">
           <div className="row d-flex justify-content-center">
               <img src="/images/Facepic.png" alt="oops" className="home-image"></img>
           </div>

@@ -6,8 +6,7 @@ class FlappyDisc extends Component {
     
     render() {
         return (
-            <Wrapper>
-                <div className="container-fluid flappy-header">Flappy Disc</div>
+            <Wrapper title="Flappy Disc">
 
                 <div id="container" className="container">
 
