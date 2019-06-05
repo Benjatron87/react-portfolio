@@ -1,11 +1,11 @@
 import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import Portfolio from "./components/pages/Portfolio";
-import Home from "./components/pages/Home";
-import Contact from "./components/pages/Contact";
+import Portfolio from "./pages/Portfolio";
+import Home from "./pages/Home";
+import Contact from "./pages/Contact";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer/Footer";
-import FlappyDisc from "./components/pages/FlappyDisc/FlappyDisc";
+import FlappyDisc from "./pages/FlappyDisc/FlappyDisc";
 import './App.css';
 
 const App = () => (

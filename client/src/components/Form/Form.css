@@ -1,0 +1,25 @@
+.send-btn{
+    background: navy;
+    border: white;
+    width: 100%;
+    border: 2px solid rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.send-btn:hover{
+    background: rgb(253, 253, 253);
+    color: navy;
+    border: 2px solid navy;
+}
+
+.contact-label{
+    color: rgb(0, 0, 88);
+}
+
+.contact-form{
+    width: 60%;
+}
+
+.contact-border{
+    border: 1px dotted navy;
+}

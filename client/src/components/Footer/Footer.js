@@ -4,7 +4,7 @@ import './Footer.css';
 class Footer extends Component {
     render() {
         return (
-            <div className="navbar sticky-bottom footer d-flex justify-content-center">
+            <div className="navbar footer d-flex justify-content-center">
                 Benj Thomsen © 2019
             </div>
         );
