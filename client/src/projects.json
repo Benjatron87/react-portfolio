@@ -2,27 +2,27 @@
     {
         "name": "Home Controller",
         "image": "/images/home-app.png",
-        "link": "link"
+        "link": "https://github.com/Benjatron87/arduino-home-app"
     },
     {
         "name": "Launch App",
         "image": "/images/placeholder-rocket.png",
-        "link": "link"
+        "link": "https://github.com/Benjatron87/Final-Project"
     },
     {
         "name": "Wifi Car",
-        "image": "/images/",
-        "link": "link"
+        "image": "/images/wifi-car.gif",
+        "link": "https://github.com/Benjatron87/Wifi-Controlled-Car"
     },
     {
         "name": "Portfolio",
         "image": "/images/Facepic.png",
-        "link": "link"
+        "link": "https://github.com/Benjatron87/react-portfolio"
     },
     {
         "name": "Flappy Disc",
         "image": "/images/",
-        "link": "link"
+        "link": "/flappy-disc"
     },
     {
         "name": "",

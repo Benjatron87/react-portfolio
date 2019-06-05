@@ -1,0 +1,84 @@
+canvas { 
+    background-image: url("/images/field.png");
+    background-position: center;
+    background-size: cover;
+    display: block;
+    margin: 0 auto; 
+    border: 2px solid navy;
+}
+
+#container{
+    position: relative;
+    height: 600px;
+    width: 480px;
+}
+
+#play-again{
+    position: absolute;
+    left: 190px;
+    top: 200px;
+    background: rgb(225, 0, 0);
+    padding: 15px;
+    color: white;
+    border-radius: 5%;
+    cursor: pointer;
+}
+
+#howto{
+    position: absolute;
+    left: 170px;
+    top: 260px;
+    color: rgb(255, 255, 255);
+    text-shadow: -3px 0 blue, 0 3px blue, 3px 0 blue, 0 -3px blue;
+}
+
+#code-link{
+    position: absolute;
+    left: 195px;
+    top: 290px;
+    color: rgb(255, 255, 255);
+    text-shadow: -3px 0 blue, 0 3px blue, 3px 0 blue, 0 -3px blue;
+}
+
+#code-link:hover{
+    text-decoration: none;
+    color: navy;
+    text-shadow: none;
+}
+
+#play-again:hover{
+    color:  rgb(225, 0, 0);
+    background: rgb(252, 252, 255);
+}
+
+#score{
+    position: absolute;
+    left: 80px;
+    top: 10px;
+    color: white;
+    background: rgb(0, 0, 225);
+    padding: 5px;
+    border-radius: 10%;
+}
+
+#highscore{
+    position: absolute;
+    left: 300px;
+    top: 10px;
+    color: white;
+    background: rgb(0, 0, 225);
+    padding: 5px;
+    border-radius: 10%;
+}
+
+.flappy-header{
+    padding: 1% 0% 1% 0%;
+    margin-bottom: 3%;
+    text-align: center;
+    color: navy;
+    text-shadow: 2px 2px rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 30px;
+    border: 2px solid navy;
+    background: white;
+}
