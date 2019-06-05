@@ -15,7 +15,7 @@ const App = () => (
       <Route exact path="/" component={Home} />
       <Route exact path="/portfolio" component={Portfolio} />
       <Route exact path="/contact" component={Contact} />
-      <Route exact path="/flappy-disc" component={FlappyDisc} />
+      <Route exact path="/flappyDisc" component={FlappyDisc} />
     </div>
       <Footer className="navbar sticky-bottom"/>
   </Router>

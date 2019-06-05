@@ -22,7 +22,7 @@
     {
         "name": "Flappy Disc",
         "image": "/images/disc.gif",
-        "link": "/flappy-disc"
+        "link": "/flappyDisc"
     },
     {
         "name": "News Scraper",
