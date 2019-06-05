@@ -13,11 +13,12 @@ class Portfolio extends Component {
         return (
             <div>
                 <Wrapper title="Projects">
-                    {this.state.projects.map(project => (
+                    {this.state.projects.map((project,index) => (
                         <Card
                         name={project.name}
                         image={project.image}
                         link={project.link}
+                        key={index}
                         />
                     ))}
                 </Wrapper>

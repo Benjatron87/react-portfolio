@@ -23,7 +23,18 @@ class Form extends Component {
     emailHandling = event => {
         event.preventDefault();
 
-        API.sendForm(this.state);
+        let emailObj = this.state;
+
+        console.log(emailObj);
+
+        API.sendForm(emailObj);
+
+        this.setState({
+            name: "",
+            email: "",
+            subject: "",
+            message: ""
+        })
     }
 
     render() {
