@@ -4,9 +4,7 @@ import "./style.css";
 
 const Navbar = () => {
   return (
-<div className="container-fluid">
-    <nav className="navbar-collapse">
-        <div className="row">
+<div className="container-fluid navbar sticky-top">
             <div className="benj">
     
                 <ul className="nav">
@@ -32,8 +30,6 @@ const Navbar = () => {
                     </li>
                 </ul>
             </div>
-        </div>
-    </nav>
 </div>
   );
 };

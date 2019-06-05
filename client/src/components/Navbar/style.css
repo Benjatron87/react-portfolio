@@ -1,28 +1,29 @@
 .container-fluid{
     background: rgb(233, 233, 233);
     border: 2px solid rgb(0, 0, 114);
+    border-right: none;
+    border-left: none;
 }
 
 .nav-item{
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 20px;
+    float: right;
 }
 
 .name{
     background: rgb(0, 0, 114);
     font-weight: bold;
+    border-radius: 4px;
 }
 
 .navLink{
     text-shadow: 2px 2px rgb(255, 255, 255);
     color: rgb(0, 0, 114);
+    float: right;
 }
 
 .page-links{
-    margin-left: 47%;
-}
-
-.benj{
-    margin-left: 11%;
+    float: right;
 }

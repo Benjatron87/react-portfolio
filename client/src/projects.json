@@ -1,42 +1,32 @@
 [
     {
-        "name": "portfolio",
-        "image": "http://localhost:3001/images/bamazon.png",
+        "name": "Home Controller",
+        "image": "/images/home-app.png",
         "link": "link"
     },
     {
-        "name": "portfolio",
-        "image": "image",
+        "name": "Launch App",
+        "image": "/images/placeholder-rocket.png",
         "link": "link"
     },
     {
-        "name": "portfolio",
-        "image": "image",
+        "name": "Wifi Car",
+        "image": "/images/",
         "link": "link"
     },
     {
-        "name": "portfolio",
-        "image": "image",
+        "name": "Portfolio",
+        "image": "/images/Facepic.png",
         "link": "link"
     },
     {
-        "name": "portfolio",
-        "image": "image",
+        "name": "Flappy Disc",
+        "image": "/images/",
         "link": "link"
     },
     {
-        "name": "portfolio",
-        "image": "image",
-        "link": "link"
-    },
-    {
-        "name": "portfolio",
-        "image": "image",
-        "link": "link"
-    },
-    {
-        "name": "portfolio",
-        "image": "image",
+        "name": "",
+        "image": "/images/",
         "link": "link"
     }
 ]
