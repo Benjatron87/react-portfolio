@@ -1,6 +1,11 @@
 .home-image{
   width: 30%;
-  height: 80%;
+  height: 90%;
   border: 2px solid navy;
   border-radius: 50%;
+}
+
+.summary{
+  color: rgb(0, 0, 46);
+  font-size: 20px;
 }

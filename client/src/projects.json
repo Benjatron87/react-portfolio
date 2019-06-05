@@ -21,12 +21,12 @@
     },
     {
         "name": "Flappy Disc",
-        "image": "/images/",
+        "image": "/images/disc.gif",
         "link": "/flappy-disc"
     },
     {
-        "name": "",
-        "image": "/images/",
-        "link": "link"
+        "name": "News Scraper",
+        "image": "/images/newsimage.png",
+        "link": "https://github.com/Benjatron87/news-scraper"
     }
 ]
