@@ -44,7 +44,7 @@ class Form extends Component {
                 email: "",
                 subject: "",
                 message: "",
-                errorMessage: ""
+                errorMessage: "Message Sent. Thank You!"
             })
         }
     }
