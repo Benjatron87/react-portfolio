@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import Wrapper from '../../components/Wrapper/index';
-import './FlappyDisc.css'
+import Wrapper from '../components/Wrapper/index';
 
 class FlappyDisc extends Component {
     

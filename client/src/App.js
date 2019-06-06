@@ -5,7 +5,7 @@ import Home from "./pages/Home";
 import Contact from "./pages/Contact";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer/Footer";
-import FlappyDisc from "./pages/FlappyDisc/FlappyDisc";
+import FlappyDisc from "./pages/FlappyDisc";
 import './App.css';
 
 const App = () => (
