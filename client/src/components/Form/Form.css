@@ -23,3 +23,7 @@
 .contact-border{
     border: 1px dotted navy;
 }
+
+.error{
+    color: red;
+}

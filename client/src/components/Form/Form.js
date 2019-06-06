@@ -8,7 +8,8 @@ class Form extends Component {
         name: "",
         email: "",
         subject: "",
-        message: ""
+        message: "",
+        errorMessage: ""
     }
 
     handleChange = event => {
@@ -23,16 +24,29 @@ class Form extends Component {
     emailHandling = event => {
         event.preventDefault();
 
-        let emailObj = this.state;
+        let emailObj = {
+            name: this.state.name,
+            email: this.state.email,
+            subject: this.state.subject,
+            message: this.state.message
+        };
 
-        API.sendForm(emailObj);
+        if(emailObj.name === "" || emailObj.email === "" || emailObj.subject === "" || emailObj.message === ""){
+            this.setState({
+                errorMessage: "Must Fill Out All Fields"
+            })
+        }
+        else{
+            API.sendForm(emailObj);
 
-        this.setState({
-            name: "",
-            email: "",
-            subject: "",
-            message: ""
-        })
+            this.setState({
+                name: "",
+                email: "",
+                subject: "",
+                message: "",
+                errorMessage: ""
+            })
+        }
     }
 
     render() {
@@ -65,6 +79,7 @@ class Form extends Component {
                         <button onClick={this.emailHandling} value="Submit" type="submit" className="btn btn-primary send-btn">Send</button>
 
                 </div>
+                <div className="error">{this.state.errorMessage}</div>
             </form>
         );
     }
