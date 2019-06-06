@@ -5,7 +5,6 @@ import Home from "./pages/Home";
 import Contact from "./pages/Contact";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer/Footer";
-import FlappyDisc from "./pages/FlappyDisc";
 import './App.css';
 
 const App = () => (
@@ -15,7 +14,6 @@ const App = () => (
       <Route exact path="/" component={Home} />
       <Route exact path="/portfolio" component={Portfolio} />
       <Route exact path="/contact" component={Contact} />
-      <Route exact path="/flappyDisc" component={FlappyDisc} />
     </div>
       <Footer className="navbar sticky-bottom"/>
   </Router>

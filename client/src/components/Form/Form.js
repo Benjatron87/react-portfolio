@@ -25,8 +25,6 @@ class Form extends Component {
 
         let emailObj = this.state;
 
-        console.log(emailObj);
-
         API.sendForm(emailObj);
 
         this.setState({
