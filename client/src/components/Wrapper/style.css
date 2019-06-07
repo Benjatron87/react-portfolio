@@ -21,3 +21,9 @@
     font-size: 30px;
     border: 2px solid navy;
 }
+
+@media only screen and (max-width: 400px){
+    .wrapper{
+        margin: 10% 0% 0% 0%;
+    }
+}

@@ -11,7 +11,7 @@ module.exports = function(app) {
             from: req.body.email, 
             to: process.env.EMAIL, 
             subject: req.body.subject,
-            text: req.body.message + "\n \n From: " + req.body.name + "With: " + req.body.email
+            text: req.body.message + "\n \n From: " + req.body.name + " With: " + req.body.email
         };
     
         var transporter = nodemailer.createTransport({

@@ -27,3 +27,15 @@
 .page-links{
     float: right;
 }
+
+@media only screen and (max-width: 500px){
+    .name{
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav{
+        align-content: center;
+        width: 100%;
+    }
+}

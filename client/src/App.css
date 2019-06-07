@@ -1,6 +1,6 @@
 .home-image{
-  width: 10%;
-  height: 60%;
+  width: 15%;
+  height: 15vw;
   border: 2px solid navy;
   border-radius: 5px;
   float: left;
@@ -13,3 +13,9 @@
   text-align: justify;
 }
 
+@media only screen and (max-width: 600px){
+  .home-image{
+    width: 25%;
+    height: 30vw;
+  }
+}
