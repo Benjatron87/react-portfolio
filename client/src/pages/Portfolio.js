@@ -15,6 +15,7 @@ class Portfolio extends Component {
                 <Wrapper title="Projects">
                     {this.state.projects.map((project,index) => (
                         <Card
+                        details={project.details}
                         name={project.name}
                         image={project.image}
                         link={project.link}

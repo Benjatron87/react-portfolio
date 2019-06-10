@@ -9,6 +9,7 @@
     align-content: flex-start;
     overflow: auto;
     border-radius: 2px;
+    opacity: .85;
 }
 
 .wrapper-title{

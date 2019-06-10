@@ -1,32 +1,54 @@
 [
     {
         "name": "Home Controller",
-        "image": "/images/home-app.png",
-        "link": "https://github.com/Benjatron87/arduino-home-app"
+        "image": "/images/home-controller.jpg",
+        "link": "https://github.com/Benjatron87/arduino-home-app",
+        "url": "home-controller",
+        "summary": "This application combines my love of software with my love of hardware. I utilized the wifi capabilities of the NodeMCU IoT device to control a series of relay switches that power some lights and a fan in my bedroom. I wrote code for this device using the Arduino IDE. The device also send temperature data and the status of my door (open/closed). The whole system is controlled from a heroku deployed website that has buttons that are synced with a MySql database so that the status of the switches are saved. The website also displays the temperature of my room and if my door is open or closed.",
+        "details": "/portfolio/home-controller"
     },
     {
         "name": "Launch App",
         "image": "/images/placeholder-rocket.png",
-        "link": "https://github.com/Benjatron87/Final-Project"
+        "link": "https://github.com/Benjatron87/Final-Project",
+        "url": "launch-app",
+        "summary": "This group project was for the UNC Chapel Hill Coding Bootcamp. My group designed this launch tracking app using a proposal from the company Carimus. The app itself utilizes a Node.js backend, connected to MongoDB to store user data. The front end uses React with redux state management. The app allows a user to login either with Facebook, Gmail, or as a guest. You can then follow upcoming lauches and keep up with the latest news on said launches. The app's backbone comes from launchlibrary.net's API as well as spaceflightnewsapi.com's API.",
+        "details": "/portfolio/launch-app",
+        "deployed": "https://launchtrackerapp.herokuapp.com/"
     },
     {
         "name": "Wifi Car",
         "image": "/images/wifi-car.gif",
-        "link": "https://github.com/Benjatron87/Wifi-Controlled-Car"
+        "link": "https://github.com/Benjatron87/Wifi-Controlled-Car",
+        "url": "wifi-car",
+        "summary": "Similar to the Home Controller App present in this portfolio, this project involves IoT and a NodeMCU. The front end is about as  simple as it gets. Five buttons control the direction of the little car (Forward, Backward, Left, Right, and Stop). These buttons manipulate the API, which is suspended by the Node.js backend. This API however, is not linked to a database because it does not need to be. The API is a single object that has a 'direction' key that, depending on the last button pressed, changes anywhere between 0-4. The NodeMCU can get that single number and decide which pins to fire which gives power to the motors." ,
+        "details": "/portfolio/wifi-car"
     },
     {
         "name": "Portfolio",
         "image": "/images/Facepic.png",
-        "link": "https://github.com/Benjatron87/react-portfolio"
+        "link": "https://github.com/Benjatron87/react-portfolio",
+        "url": "portfolio",
+        "summary": "",
+        "details": "/portfolio/portfolio",
+        "deployed": "https://benj-thomsen-portfolio.herokuapp.com/"
     },
     {
         "name": "Flappy Disc",
         "image": "/images/disc.gif",
-        "link": "https://benjatron87.github.io/2D-js-game/"
+        "link": "",
+        "url": "flappy-disc",
+        "summary": "",
+        "details": "/portfolio/flappy-disc",
+        "deployed": "https://benjatron87.github.io/2D-js-game/"
     },
     {
         "name": "News Scraper",
         "image": "/images/newsimage.png",
-        "link": "https://github.com/Benjatron87/news-scraper"
+        "link": "https://github.com/Benjatron87/news-scraper",
+        "url": "news-scraper",
+        "summary": "",
+        "details": "/portfolio/news-scraper",
+        "deployed": "https://benjs-news-scraper-app.herokuapp.com/"
     }
 ]

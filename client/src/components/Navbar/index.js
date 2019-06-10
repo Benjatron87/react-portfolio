@@ -7,7 +7,7 @@ const Navbar = () => {
       <div className="container-fluid navbar sticky-top">
             
             <div className="nav-item name">
-                    <Link to="/" className="nav-link text-light link">Benj Thomsen</Link>
+                    <Link to="/" className="nav-link name link">Benj Thomsen</Link>
             </div>
 
             <div className="nav page-links d-flex justify-content-center">

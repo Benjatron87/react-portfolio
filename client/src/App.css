@@ -1,3 +1,7 @@
+body{
+  background-image: linear-gradient(navy, grey, white);
+}
+
 .home-image{
   width: 15%;
   height: 15vw;
