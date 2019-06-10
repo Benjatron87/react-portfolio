@@ -29,7 +29,7 @@
         "image": "/images/Facepic.png",
         "link": "https://github.com/Benjatron87/react-portfolio",
         "url": "portfolio",
-        "summary": "",
+        "summary": "Seeing as you're currently reading this, you have had a chance to look through some of this app. It uses a Node.js server for the back-end, and the front-end is rendered using React. The back-end is fairly basic other than the email handling. I am using nodemailer to make the 'Contact Me' page useable. It is being hosted on Heroku.",
         "details": "/portfolio/portfolio",
         "deployed": "https://benj-thomsen-portfolio.herokuapp.com/"
     },
@@ -38,7 +38,7 @@
         "image": "/images/disc.gif",
         "link": "",
         "url": "flappy-disc",
-        "summary": "",
+        "summary": "This is a game I made based off the once popular iPhone game, 'flappy bird'. I made it one day while messing around with the HTML canvas tag. I realized that the canvas is a basic x/y coordinate plane, and with my background in physics, making the disc fly was a simple position change due to gravity equation. Obviously my love for the sport of Ultimate Frisbee comes to light with this project. While the canvas is a set size, and not responsive, the app is touch sensitive and can be played on an iPhone. However, I cannot promise it will fit on your screen.",
         "details": "/portfolio/flappy-disc",
         "deployed": "https://benjatron87.github.io/2D-js-game/"
     },
@@ -47,7 +47,7 @@
         "image": "/images/newsimage.png",
         "link": "https://github.com/Benjatron87/news-scraper",
         "url": "news-scraper",
-        "summary": "",
+        "summary": "This is a simple application that uses the 'cheerio' web scraper to parse article information from the NY Times website. It then renders the top 5 articles using express-handlebars. The Node.js backend is linked to MongoDB so that you can save a particular article, to then read later. This was a homework assignment for the UNC Chapel Hill Coding Bootcamp that was designed to get us more familiar with MongoDB as well as a Javascript framework for rendering HTML before we started on React.",
         "details": "/portfolio/news-scraper",
         "deployed": "https://benjs-news-scraper-app.herokuapp.com/"
     }
