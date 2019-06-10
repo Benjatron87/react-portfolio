@@ -3,12 +3,12 @@ body{
 }
 
 .home-image{
-  width: 15%;
-  height: 15vw;
+  width: 200px;
+  height: 270px;
   border: 2px solid navy;
   border-radius: 5px;
+  margin: 2px 20px 0px 10px;
   float: left;
-  margin: 1% 20px 20px 0;
 }
 
 .summary{
@@ -18,8 +18,8 @@ body{
 }
 
 @media only screen and (max-width: 600px){
-  .home-image{
-    width: 25%;
-    height: 30vw;
+  
+  .summary{
+    padding: 2%;
   }
 }

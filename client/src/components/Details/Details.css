@@ -23,3 +23,9 @@
 .git-link:hover, .deployed-link:hover{
     opacity: .7;
 }
+
+@media only screen and (max-width: 600px){
+    .details-summary{
+      padding: 3%;
+    }
+  }
