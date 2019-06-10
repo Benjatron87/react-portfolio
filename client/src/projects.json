@@ -36,7 +36,7 @@
     {
         "name": "Flappy Disc",
         "image": "/images/disc.gif",
-        "link": "",
+        "link": "https://github.com/Benjatron87/2D-js-game",
         "url": "flappy-disc",
         "summary": "This is a game I made based off the once popular iPhone game, 'flappy bird'. I made it one day while messing around with the HTML canvas tag. I realized that the canvas is a basic x/y coordinate plane, and with my background in physics, making the disc fly was a simple position change due to gravity equation. Obviously my love for the sport of Ultimate Frisbee comes to light with this project. While the canvas is a set size, and not responsive, the app is touch sensitive and can be played on an iPhone. However, I cannot promise it will fit on your screen.",
         "details": "/portfolio/flappy-disc",
