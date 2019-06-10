@@ -4,6 +4,10 @@ import './Details.css';
 
 class Details extends Component {
 
+    componentDidMount() {
+        window.scrollTo(0, 0)
+    }
+
     state = {
         project: this.props.project
     }

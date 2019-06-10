@@ -2,6 +2,11 @@ import React, { Component } from 'react';
 import Wrapper from "../components/Wrapper";
 
 class Home extends Component {
+
+  componentDidMount() {
+    window.scrollTo(0, 0)
+  }
+
   render() {
     return (
       <div>

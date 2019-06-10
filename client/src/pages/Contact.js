@@ -3,6 +3,11 @@ import Wrapper from "../components/Wrapper/index";
 import Form from '../components/Form/Form';
 
 class Contact extends Component {
+
+  componentDidMount() {
+    window.scrollTo(0, 0)
+  }
+
   render() {
     return (
       <div>

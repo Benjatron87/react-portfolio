@@ -5,6 +5,10 @@ import Card from "../components/Card/index";
 
 class Portfolio extends Component {
 
+    componentDidMount() {
+        window.scrollTo(0, 0)
+      }
+
     state = {
         projects
     }
