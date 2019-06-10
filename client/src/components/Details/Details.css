@@ -28,4 +28,16 @@
     .details-summary{
       padding: 3%;
     }
-  }
+
+    .details-image{
+        width: 150px;
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    .details-image{
+        width: 100px;
+        height: 130px;
+    }
+}

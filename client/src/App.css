@@ -3,8 +3,8 @@ body{
 }
 
 .home-image{
-  width: 200px;
-  height: 270px;
+  width: 150px;
+  height: 200px;
   border: 2px solid navy;
   border-radius: 5px;
   margin: 2px 20px 0px 10px;
@@ -21,5 +21,16 @@ body{
   
   .summary{
     padding: 2%;
+  }
+}
+
+@media only screen and (max-width: 400px){
+  .home-image{
+    width: 100px;
+    height: 130px;
+    border: 2px solid navy;
+    border-radius: 5px;
+    margin: 2px 20px 0px 10px;
+    float: left;
   }
 }
