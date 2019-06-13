@@ -1,5 +1,5 @@
 .wrapper{
-    background:rgb(233, 233, 233);
+    background:rgba(233, 233, 233, .85);
     border: 2px solid  rgb(0, 0, 114);
     margin: 5% 0% 5% 0%;
     padding: 5%;
@@ -9,7 +9,6 @@
     align-content: flex-start;
     overflow: auto;
     border-radius: 2px;
-    opacity: .85;
 }
 
 .wrapper-title{
@@ -21,6 +20,9 @@
     font-weight: bold;
     font-size: 30px;
     border: 2px solid navy;
+    background: rgba(0, 0, 0, 0.0);
+    border-left: none;
+    border-right: none;
 }
 
 @media only screen and (max-width: 400px){

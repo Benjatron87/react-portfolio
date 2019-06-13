@@ -1,4 +1,4 @@
-.container-fluid{
+.navbar{
     background: rgba(233, 233, 233, .85);
     border: 2px solid rgb(0, 0, 114);
     border-right: none;
@@ -27,6 +27,11 @@
     text-shadow: 2px 2px rgb(235, 235, 235);
     color: rgb(0, 0, 114);
     float: right;
+}
+
+.navLink:hover{
+    color: rgb(0, 0, 172);
+    font-size: 21px;
 }
 
 .page-links{

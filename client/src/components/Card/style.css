@@ -6,6 +6,11 @@
     text-align: center;
     border-radius: 5px;
     cursor: pointer;
+    -webkit-transition: all 500ms ease-in-out;
+    -moz-transition: all 500ms ease-in-out;
+    -ms-transition: all 500ms ease-in-out;
+    -o-transition: all 500ms ease-in-out;
+    transition: all 500ms ease-in-out;
 }
 
 .card-img{
@@ -25,10 +30,10 @@
     font-size: 16px;
     background: navy;
     border-radius: 5px;
-    width: 200px;
+    width: 150px;
     padding: 4%;
-    margin-left: -14%;
     margin-top: 110%;
+    margin-left: 5%;
 }
 
 .card:hover .card-text{
@@ -36,5 +41,11 @@
     color: white;
     opacity: 1.0;
     font-weight: bold;
-    
+    width: 225px;
+    margin-left: -5%;
+}
+
+.card:hover{
+    width: 250px;
+    height: 337px;
 }
