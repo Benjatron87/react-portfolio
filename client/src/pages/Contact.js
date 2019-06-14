@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Wrapper from "../components/Wrapper/index";
+import Wrapper from "../components/Wrapper/Wrapper";
 import Form from '../components/Form/Form';
 
 class Contact extends Component {

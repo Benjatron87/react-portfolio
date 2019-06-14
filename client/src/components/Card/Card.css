@@ -33,12 +33,12 @@
     width: 150px;
     padding: 4%;
     margin-top: 110%;
-    margin-left: 5%;
+    margin-left: 4%;
 }
 
 .card:hover .card-text{
     text-decoration: none;
-    color: white;
+    color: rgba(255, 253, 155, .8);
     opacity: 1.0;
     font-weight: bold;
     width: 225px;

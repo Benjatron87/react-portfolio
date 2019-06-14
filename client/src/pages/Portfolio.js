@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import Wrapper from "../components/Wrapper";
+import Wrapper from "../components/Wrapper/Wrapper";
 import projects from "../projects.json";
-import Card from "../components/Card/index";
+import Card from "../components/Card/Card";
 
 class Portfolio extends Component {
 

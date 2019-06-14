@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Wrapper from '../Wrapper/index';
+import Wrapper from '../Wrapper/Wrapper';
 import './Details.css';
 
 class Details extends Component {

@@ -2,14 +2,12 @@
     background: navy;
     border: white;
     width: 100%;
-    border: 2px solid rgb(255, 255, 255);
     font-weight: bold;
 }
 
 .send-btn:hover{
     background: rgb(253, 253, 253);
     color: navy;
-    border: 2px solid navy;
 }
 
 .contact-label{

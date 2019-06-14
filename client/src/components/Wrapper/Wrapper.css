@@ -1,7 +1,6 @@
 .wrapper{
-    background:rgba(233, 233, 233, .85);
-    border: 2px solid  rgb(0, 0, 114);
-    margin: 5% 0% 5% 0%;
+    background:rgba(252, 255, 104, 0.45);
+    margin: 4% 0% 4% 0%;
     padding: 5%;
     font-size: 20px;
     flex-flow: row wrap;
@@ -16,7 +15,6 @@
     margin-bottom: 3%;
     text-align: center;
     color: navy;
-    text-shadow: 2px 2px rgb(255, 255, 255);
     font-weight: bold;
     font-size: 30px;
     border: 2px solid navy;

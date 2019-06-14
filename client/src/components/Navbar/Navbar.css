@@ -1,8 +1,5 @@
 .navbar{
-    background: rgba(233, 233, 233, .85);
-    border: 2px solid rgb(0, 0, 114);
-    border-right: none;
-    border-left: none;
+    background: rgba(254, 255, 174, 0.75);
 }
 
 .nav-item{
@@ -13,18 +10,17 @@
 }
 
 .name{
-    background: rgb(0, 0, 114);
+    background: rgb(0, 0, 158);
     font-weight: bold;
     border-radius: 4px;
-    color: white;
+    color: rgba(255, 253, 155, .8);
 }
 
 .name:hover{
-    color: rgb(224, 224, 224);
+    color: rgb(244, 255, 87);
 }
 
 .navLink{
-    text-shadow: 2px 2px rgb(235, 235, 235);
     color: rgb(0, 0, 114);
     float: right;
 }
@@ -48,4 +44,9 @@
         align-content: center;
         width: 100%;
     }
+
+    .navbar{
+        background: rgba(185, 185, 149, 0.95);
+    }
+    
 }
