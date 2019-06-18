@@ -1,5 +1,5 @@
 .navbar{
-    background: rgba(254, 255, 174, 0.75);
+    background: rgba(255, 254, 210, 0.8);
 }
 
 .nav-item{
@@ -13,11 +13,11 @@
     background: rgb(0, 0, 158);
     font-weight: bold;
     border-radius: 4px;
-    color: rgba(255, 253, 155, .8);
+    color: rgba(255, 254, 210, 0.8);
 }
 
 .name:hover{
-    color: rgb(244, 255, 87);
+    color: rgba(255, 255, 255, 0.8);
 }
 
 .navLink{

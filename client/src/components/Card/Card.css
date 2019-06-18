@@ -38,7 +38,7 @@
 
 .card:hover .card-text{
     text-decoration: none;
-    color: rgba(255, 253, 155, .8);
+    color: rgba(255, 254, 210, 0.8);
     opacity: 1.0;
     font-weight: bold;
     width: 225px;
