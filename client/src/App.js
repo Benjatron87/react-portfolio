@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Route } from "react-router-dom";
+import { HashRouter, Route } from "react-router-dom";
 import Portfolio from "./pages/Portfolio";
 import Home from "./pages/Home";
 import Contact from "./pages/Contact";
@@ -10,7 +10,7 @@ import projects from "./projects.json";
 import './App.css';
 
 const App = () => (
-  <BrowserRouter>
+  <HashRouter>
       <Navbar className="navbar sticky-top"></Navbar>
         <div className="container">
           <Route exact path="/" component={Home} />
@@ -21,7 +21,7 @@ const App = () => (
           ))}
         </div>
       <Footer className="navbar sticky-bottom"/>
-  </BrowserRouter>
+  </HashRouter>
 );
 
 export default App;
