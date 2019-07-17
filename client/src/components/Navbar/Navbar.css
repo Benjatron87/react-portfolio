@@ -1,5 +1,5 @@
 .navbar{
-    background: rgba(255, 254, 210, 0.8);
+    background: rgba(255, 255, 238, 0.95);
 }
 
 .nav-item{
@@ -44,9 +44,4 @@
         align-content: center;
         width: 100%;
     }
-
-    .navbar{
-        background: rgba(185, 185, 149, 0.95);
-    }
-    
 }
